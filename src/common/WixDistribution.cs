@@ -16,9 +16,9 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Resources;
 
-[assembly: AssemblyCompany("Outercurve Foundation")]
-[assembly: AssemblyCopyright("Copyright (c) Outercurve Foundation. All rights reserved.")]
-[assembly: AssemblyProduct("WiX Toolset")]
+[assembly: AssemblyCompany("FireGiant")]
+[assembly: AssemblyCopyright("Copyright (c) FireGiant and Outercurve Foundation. All rights reserved.")]
+[assembly: AssemblyProduct("FireGiant - WiX Toolset")]
 
 #if DEBUG
     [assembly: AssemblyConfiguration("DEBUG")]
@@ -37,12 +37,12 @@ namespace WixToolset
         /// <summary>
         /// News URL for the distribution.
         /// </summary>
-        public static string NewsUrl = "http://wixtoolset.org/news/";
+        public static string NewsUrl = "http://firegiant.com/blog/";
 
         /// <summary>
         /// Short product name for the distribution.
         /// </summary>
-        public static string ShortProduct = "WiX Toolset";
+        public static string ShortProduct = "FireGiant WiX Toolset";
 
         /// <summary>
         /// Support URL for the distribution.
@@ -52,7 +52,7 @@ namespace WixToolset
         /// <summary>
         /// Telemetry URL format for the distribution.
         /// </summary>
-        public static string TelemetryUrlFormat = "http://wixtoolset.org/telemetry/v{0}/?r={1}";
+        public static string TelemetryUrlFormat = "http://firegiant.com/telemetry/v{0}/?r={1}";
 
         public static string ReplacePlaceholders(string original, Assembly assembly)
         {
